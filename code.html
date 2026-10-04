@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Viku ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FLOATING DECOR -->
+    <div class="floating-decor decor1">♡</div>
+    <div class="floating-decor decor2">✦</div>
+    <div class="floating-decor decor3">♪</div>
+    <div class="floating-decor decor4">♡</div>
+
+
+    <!-- =====================================================
+         1. TOP SECRET VERIFICATION
+    ====================================================== -->
+
+    <section id="verification" class="page active">
+
+        <div class="top-secret">
+            <span>🔒 CLASSIFIED</span>
+            <span>CASE FILE: VIKU-001</span>
+            <span>DO NOT SHARE</span>
+        </div>
+
+        <div class="verification-card">
+
+            <div class="stamp">TOP SECRET</div>
+
+            <p class="tiny-label">
+                BOYFRIEND VERIFICATION PORTAL
+            </p>
+
+            <h1>
+                Wait... Are You Actually
+                <span>Viku?</span> 👀
+            </h1>
+
+            <p class="verification-intro">
+                Before entering Vidhu's extremely confidential little
+                universe, we need to verify your identity.
+            </p>
+
+            <div class="identity-file">
+
+                <div class="file-row">
+                    <span>Subject</span>
+                    <strong>Viku</strong>
+                </div>
+
+                <div class="file-row">
+                    <span>Known Alias</span>
+                    <strong>Flute Guy 🎶</strong>
+                </div>
+
+                <div class="file-row">
+                    <span>Origin</span>
+                    <strong>India 🇮🇳</strong>
+                </div>
+
+                <div class="file-row">
+                    <span>Danger Level</span>
+                    <strong>Extremely Cute ⚠️</strong>
+                </div>
+
+                <div class="file-row">
+                    <span>Relationship Status</span>
+                    <strong>Under Investigation...</strong>
+                </div>
+
+            </div>
+
+            <div class="warning-note">
+                ⚠️ WARNING: Unauthorized people will be redirected
+                to a very boring website.
+            </div>
+
+            <button id="yesBoyfriend" class="primary-btn">
+                I AM VIKU 😌 →
+            </button>
+
+            <p class="fine-print">
+                By clicking this button, you agree to being emotionally
+                attacked by cute memories.
+            </p>
+
+        </div>
+
+        <div class="floating-sticker sticker-one">🎀</div>
+        <div class="floating-sticker sticker-two">🎵</div>
+        <div class="floating-sticker sticker-three">💌</div>
+        <div class="floating-sticker sticker-four">🧸</div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         2. BOYFRIEND QUIZ
+    ====================================================== -->
+
+    <section id="quiz" class="page">
+
+        <div class="simple-page">
+
+            <p class="tiny-label">SECURITY CHECK • ROUND 1</p>
+
+            <h1>
+                Okay Viku... prove it. 👀
+            </h1>
+
+            <p class="page-subtitle">
+                Three questions. No cheating.
+                I already know the answers.
+            </p>
+
+            <div class="quiz-progress">
+                Question <span id="questionNumber">1</span> of 3
+            </div>
+
+            <div class="quiz-card">
+
+                <h2 id="quizQuestion">
+                    Question loading...
+                </h2>
+
+                <div id="answers" class="answers"></div>
+
+                <p id="wrongMessage" class="wrong-message"></p>
+
+                <button id="retryButton" class="secondary-btn hidden">
+                    Try again 😭
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         3. ACCESS GRANTED
+    ====================================================== -->
+
+    <section id="access" class="page">
+
+        <div class="access-card">
+
+            <div class="access-icon">
+                ✓
+            </div>
+
+            <p class="tiny-label">
+                SECURITY STATUS
+            </p>
+
+            <h1>
+                ACCESS GRANTED.
+            </h1>
+
+            <p>
+                Identity confirmed.
+                <br>
+                Boyfriend privileges unlocked. 🔓
+            </p>
+
+            <div class="loading-bar">
+                <div></div>
+            </div>
+
+            <button class="primary-btn" onclick="showPage('world')">
+                Enter our little world ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         4. MAIN WORLD / MENU
+    ====================================================== -->
+
+    <section id="world" class="page">
+
+        <div class="world-page">
+
+            <p class="tiny-label">
+                WELCOME TO
+            </p>
+
+            <h1>
+                Our Little World ♡
+            </h1>
+
+            <p class="page-subtitle">
+                A tiny corner of the internet dedicated to
+                two flute players who were definitely not
+                supposed to become a love story.
+            </p>
+
+            <div class="world-grid">
+
+                <button class="world-card" onclick="showPage('characters')">
+                    <span>🎬</span>
+                    <strong>Meet the Cast</strong>
+                    <small>Who are these two?</small>
+                </button>
+
+                <button class="world-card" onclick="showPage('instagram')">
+                    <span>📱</span>
+                    <strong>The Beginning</strong>
+                    <small>That random Instagram reel</small>
+                </button>
+
+                <button class="world-card" onclick="showPage('story')">
+                    <span>📖</span>
+                    <strong>Our Story</strong>
+                    <small>How we got here</small>
+                </button>
+
+                <button class="world-card" onclick="showPage('laughs')">
+                    <span>😂</span>
+                    <strong>Scientific Evidence</strong>
+                    <small>Why do we laugh so much?</small>
+                </button>
+
+                <button class="world-card" onclick="showPage('memories')">
+                    <span>📸</span>
+                    <strong>Memory Wall</strong>
+                    <small>Little moments</small>
+                </button>
+
+                <button class="world-card" onclick="showPage('reasons')">
+                    <span>💗</span>
+                    <strong>Reasons</strong>
+                    <small>Things I adore about you</small>
+                </button>
+
+                <button class="world-card" onclick="showPage('games')">
+                    <span>🎮</span>
+                    <strong>Boyfriend Arcade</strong>
+                    <small>Let's test your knowledge</small>
+                </button>
+
+                <button class="world-card" onclick="showPage('secret')">
+                    <span>🔐</span>
+                    <strong>Secret Room</strong>
+                    <small>Only flute players allowed</small>
+                </button>
+
+                <button class="world-card final-card"
+                        onclick="showPage('gift')">
+                    <span>🎁</span>
+                    <strong>One Last Thing...</strong>
+                    <small>Open when you're ready</small>
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         5. CHARACTER INTRO
+    ====================================================== -->
+
+    <section id="characters" class="page">
+
+        <div class="cast-page">
+
+            <div class="back-button" onclick="showPage('world')">
+                ← Back to our world
+            </div>
+
+            <div class="cast-header">
+
+                <span class="cast-label">
+                    🎬 THE MAIN CHARACTERS
+                </span>
+
+                <h1>
+                    Before we tell you the story...
+                </h1>
+
+                <p>
+                    Let's meet the two people who somehow ended up here. 👀
+                </p>
+
+            </div>
+
+
+            <div class="characters">
+
+
+                <!-- VIDHU -->
+
+                <div class="character vidhu-character">
+
+                    <div class="character-tag">
+                        CAST MEMBER #01
+                    </div>
+
+                    <div class="sticker-area">
+
+                        <div class="doodle doodle-star">✦</div>
+                        <div class="doodle doodle-heart">♡</div>
+
+                        <div class="tape-photo tape-photo-left"></div>
+
+                        <div class="sticker-photo">
+
+                            <img src="photo_collection/intro_v1.jpeg"
+                                 alt="Vidhu">
+
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <h2>
+                            VIDHU 🇳🇵
+                        </h2>
+
+                        <p class="character-role">
+                            THE MAIN CHARACTER
+                        </p>
+
+                        <p class="funny-description">
+                            Flute player. Crochet paglu.
+                            Collects hobbies like
+                            they're Pokémon. Has approximately
+                            173 tabs open in her brain at all times.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CENTER -->
+
+                <div class="versus">
+
+                    <div class="center-note note-a">♪</div>
+                    <div class="center-note note-b">♫</div>
+
+                    <div class="flute-symbol">
+                        🪈
+                    </div>
+
+                    <span>+</span>
+
+                    <div class="flute-symbol">
+                        🪈
+                    </div>
+
+                    <div class="vs-text">
+                        AND THEN...
+                    </div>
+
+                </div>
+
+
+                <!-- VIKU -->
+
+                <div class="character viku-character">
+
+                    <div class="character-tag">
+                        CAST MEMBER #02
+                    </div>
+
+                    <div class="sticker-area">
+
+                        <div class="doodle doodle-star">✦</div>
+                        <div class="doodle doodle-music">♫</div>
+
+                        <div class="tape-photo tape-photo-right"></div>
+
+                        <div class="sticker-photo">
+
+                            <img src="photo_collection/intro_v2.jpeg"
+                                 alt="Viku">
+
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <h2>
+                            VIKU 🇮🇳
+                        </h2>
+
+                        <p class="character-role">
+                            THE UNEXPECTED PLOT TWIST
+                        </p>
+
+                        <p class="funny-description">
+                            Flute player. Professional nuisance.
+                            Real-world NOBITA. Can win a sleeping contest.
+                            Accidentally became a major character.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="reality-show-caption">
+
+                <span class="quotation-mark">“</span>
+
+                <p>
+                    They were complete strangers.
+                </p>
+
+                <p>
+                    They played the same instrument.
+                </p>
+
+                <p>
+                    They both started playing in Class 6.
+                </p>
+
+                <strong>
+                    And apparently, the Instagram algorithm had plans.
+                </strong>
+
+                <span class="quotation-mark">”</span>
+
+            </div>
+
+
+            <button class="primary-btn"
+                    onclick="showPage('instagram')">
+
+                Okay, roll the footage → 🎬
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+<!-- =====================================================
+     6. THE FIRST INTERACTION — INSTAGRAM
+====================================================== -->
+
+<section id="instagram" class="page">
+
+    <div class="instagram-story-page">
+
+        <div class="back-button"
+             onclick="showPage('characters')">
+            ← Back to cast
+        </div>
+
+        <p class="tiny-label">
+            CASE FILE • THE FIRST INTERACTION
+        </p>
+
+        <h1>
+            It Started With One Reel. 👀
+        </h1>
+
+        <p class="page-subtitle">
+            Two complete strangers. One flute reel.
+            One very important comment.
+        </p>
+
+
+        <!-- =========================================
+             STEP 1 — THE REEL
+        ========================================== -->
+
+        <div id="igStep1" class="ig-step active-ig-step">
+
+            <div class="phone instagram-phone">
+
+                <div class="phone-top">
+                    <span>9:41</span>
+                    <span>● ● ●</span>
+                </div>
+
+                <div class="instagram-header">
+                    <strong>Instagram</strong>
+                    <span>♡ &nbsp;＋</span>
+                </div>
+
+
+                <div class="ig-profile">
+
+                    <div class="mini-avatar">
+                        VC
+                    </div>
+
+                    <div>
+                        <strong>vidhichhetri.14</strong>
+
+                        <small>
+                            Original audio • Flute cover
+                        </small>
+                    </div>
+
+                    <span class="more-icon">
+                        •••
+                    </span>
+
+                </div>
+
+
+                <!-- REEL -->
+
+                <div class="reel-container">
+
+                    <!--
+                        LATER:
+                        Replace .reel-thumbnail-placeholder
+                        with your actual reel thumbnail/image.
+                    -->
+
+                    <div class="reel-thumbnail-placeholder">
+
+                        <div class="thumbnail-note">
+                            🎵
+                        </div>
+
+                        <div class="reel-play-button">
+                            ▶
+                        </div>
+
+                        <div class="music-bars">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <strong>
+                            FLUTE REEL
+                        </strong>
+
+                        <small>
+                            <img 
+                            src="photo_collection/reel.jpeg" 
+                            alt="Flute reel thumbnail"
+                            class="reel-thumbnail-image"
+                            >
+                        </small>
+
+                    </div>
+
+                    <div class="reel-duration">
+                        1:00
+                    </div>
+
+                    <div class="reel-side-actions">
+
+                        <span>♡</span>
+                        <span>💬</span>
+                        <span>➤</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="ig-action-row">
+
+                    <span>♡</span>
+                    <span>💬</span>
+                    <span>➤</span>
+
+                    <span class="save-reel">
+                        ♧
+                    </span>
+
+                </div>
+
+
+                <div class="ig-likes">
+                    1,284 likes
+                </div>
+
+
+                <div class="ig-caption">
+
+                    <strong>
+                        vidhichhetri.14
+                    </strong>
+
+                    🪈🦚
+                    Flute with tabla
+
+                    <span>
+                       #fyp #trending #explorepage #viral 
+                       #flute #tabla #krishna #jaishreekrishna #mahabharatflute
+                    </span>
+
+                </div>
+
+
+                <!-- THE IMPORTANT COMMENT -->
+
+                <div class="first-comment">
+
+                    <div class="comment-avatar">
+                        VJ
+                    </div>
+
+                    <div class="comment-body">
+
+                        <div>
+
+                            <strong>
+                                vikash_on_flute
+                            </strong>
+
+                            <span class="first-interaction-badge">
+                                FIRST INTERACTION
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Wow... ❤️❤️❤️
+                        </p>
+
+                        <small>
+                            47w &nbsp; · &nbsp; Reply
+                        </small>
+
+                    </div>
+
+                    <span class="comment-like">
+                        ♡
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="story-reveal-note">
+
+                <span>
+                    IMPORTANT DETAIL
+                </span>
+
+                <p>
+                    Before this comment, they were
+                    <strong>complete strangers.</strong>
+                </p>
+
+            </div>
+
+
+            <div class="instagram-narration">
+
+                <p>
+                    He didn't know her.
+                </p>
+
+                <p>
+                    She didn't know him.
+                </p>
+
+                <strong>
+                    Then he saw the flute reel.
+                </strong>
+
+                <p>
+                    (Sounds crazyyyy, right?)
+                </p>
+            </div>
+
+
+            <button
+                class="primary-btn"
+                type="button"
+                onclick="showIGStep(2)">
+
+                WHAT HAPPENED NEXT? →
+            </button>
+
+        </div>
+
+
+
+        <!-- =========================================
+             STEP 2 — FOLLOW
+        ========================================== -->
+
+        <div id="igStep2" class="ig-step">
+
+            <div class="follow-card">
+
+                <div class="follow-animation">
+
+                    <div class="follow-profile">
+                        VJ
+                    </div>
+
+                    <div class="follow-arrow">
+                        →
+                    </div>
+
+                    <div class="follow-profile small-profile">
+                        VC
+                    </div>
+
+                </div>
+
+
+                <span class="tiny-label">
+                    AFTER THE COMMENT
+                </span>
+
+                <h2>
+                    Then came the follow.
+                </h2>
+
+
+                <p>
+                    Still two strangers.
+                    Just... slightly less anonymous now.
+                </p>
+
+                <div class="follow-status">
+                    ✓ FOLLOWING
+                </div>
+
+            </div>
+
+
+            <div class="story-note">
+
+                <span>
+                    PLOT POINT #01
+                </span>
+
+                <strong>
+                    A random flute reel
+                    somehow opened the door.
+                </strong>
+
+            </div>
+
+
+            <button
+                class="primary-btn"
+                type="button"
+                onclick="showIGStep(3)">
+
+                AND THEN... THE DMs →
+            </button>
+
+        </div>
+
+
+
+        <!-- =========================================
+             STEP 3 — DM RECREATION
+        ========================================== -->
+
+        <div id="igStep3" class="ig-step">
+
+            <div class="dm-phone">
+
+                <div class="dm-header">
+
+                    <span>‹</span>
+
+                    <div class="dm-person">
+
+                        <div class="dm-avatar">
+                            VJ
+                        </div>
+
+                        <div>
+                            <strong>
+                                vikash_on_flute
+                            </strong>
+
+                            <small>
+                                Active now
+                            </small>
+                        </div>
+
+                    </div>
+
+                    <span>⋯</span>
+
+                </div>
+
+
+                <div class="dm-chat">
+
+                    <div class="dm-story-label">
+                        STORY RECREATION
+                    </div>
+
+                    <div class="dm-disclaimer">
+                        These messages will take you to the beginning of our story...
+                    </div>
+
+
+                    <div class="dm-message received visible-message">
+                        Hey :)
+                    </div>
+
+
+                    <div class="dm-message sent">
+                        Heyy
+                    </div>
+
+
+                    <div class="dm-message received">
+                        You play flute? Can we collab?
+                    </div>
+
+
+                    <div class="dm-message sent">
+                        Yeah, Sure. Aap dehradun se hi ho?
+                    </div>
+
+
+                    <div class="dm-message received">
+                        Hnn ji, ap?
+                    </div>
+
+                    <div class="dm-message sent">
+                        Mai bhi
+                    </div>
+
+
+                    <div class="dm-message received">
+                        College?
+                    </div>
+
+                    <div class="dm-message sent">
+                        DIT, aur aap?
+                    </div>
+
+
+                    <div class="dm-message received">
+                        M graphic era
+                    </div>
+
+
+                    <div class="dm-message sent">
+                        NO WAY 😭
+                    </div>
+
+
+                    <div
+                        id="dmReaction"
+                        class="dm-reaction">
+
+                        🎵 + 🎵 = 👀
+
+                    </div>
+
+                </div>
+
+
+                <div class="dm-input">
+
+                    <span>
+                        Message...
+                    </span>
+
+                    <span>
+                        ♡
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="dm-progress">
+
+                <span id="dmProgress">
+                    1 / 10
+                </span>
+
+            </div>
+
+
+            <p
+                id="dmNarration"
+                class="handwritten dm-narration">
+
+                And then the conversation began...
+
+            </p>
+
+
+            <button
+                id="nextDMButton"
+                class="primary-btn"
+                type="button"
+                onclick="revealNextDM()">
+
+                NEXT MESSAGE →
+            </button>
+
+
+            <!-- CONNECTION REVEAL -->
+
+            <div
+                id="dmConnection"
+                class="connection-card">
+
+                <span class="connection-icon">
+                    🎵
+                </span>
+
+                <div>
+
+                    <strong>
+                        COMMON INTEREST DETECTED
+                    </strong>
+
+                    <p>
+                        They both play flute.
+                    </p>
+
+                    <p>
+                        And both started learning
+                        in school time.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+            class="primary-btn dm-continue-btn"
+            id="dmContinueButton"
+            type="button"
+            onclick="showIGStep(4)"
+            >
+            CONTINUE THE STORY → 🎬
+            </button>
+
+        </div>
+
+
+
+        <!-- =========================================
+             STEP 4 — THE DISCOVERY
+        ========================================== -->
+
+        <div id="igStep4" class="ig-step">
+
+            <div class="discovery-card">
+
+                <div class="discovery-stamp">
+                    PLOT TWIST
+                </div>
+
+                <div class="two-flutes">
+                    Vidhu &nbsp; + &nbsp; Viku
+                </div>
+
+                <h2>
+                    They had something
+                    unexpectedly important
+                    in common.
+                </h2>
+
+                <div class="discovery-lines">
+
+                    <div>
+                        <span>VIDHU</span>
+                        <strong>Had a boyfriend - FLUTE</strong>
+                    </div>
+
+                    <div>
+                        <span>VIKU</span>
+                        <strong>Had a girlfriend - FLUTE</strong>
+                    </div>
+
+                </div>
+
+                <div class="big-equation">
+                    TWO STRANGERS
+                    <br>
+                    +
+                    <br>
+                    TWO FLUTES
+                    <br>
+                    =
+                    <br>
+                    <span>THE BEGINNING</span>
+                </div>
+
+            </div>
+
+
+            <div class="instagram-ending-note">
+
+                <p>
+                    And that's the important part:
+                </p>
+
+                <strong>
+                    It didn't start with knowing each other.
+                </strong>
+
+                <strong>
+                    It started with a random flute reel.
+                </strong>
+
+                <span>
+                    One comment. One follow.
+                    Then a conversation.
+                </span>
+
+            </div>
+
+
+            <button
+                class="primary-btn"
+                type="button"
+                onclick="showPage('story')">
+
+                NOW ROLL THE ACTUAL STORY → 📖
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- =====================================================
+         7. FULL STORY / SCRAPBOOK TIMELINE
+    ====================================================== -->
+
+    <section id="story" class="page">
+
+        <div class="story-page">
+
+            <div class="back-button"
+                 onclick="showPage('world')">
+                ← Back to our world
+            </div>
+
+            <p class="tiny-label">
+                CASE FILE • OUR STORY
+            </p>
+
+            <h1>
+                How Two Strangers Became Us.
+            </h1>
+
+            <p class="page-subtitle">
+                A timeline nobody planned.
+            </p>
+
+
+            <div class="timeline">
+
+
+                <div class="story-event left">
+
+                    <div class="timeline-photo polaroid rotate-left">
+
+                        <img src="photo_collection/begin.jpeg"
+                             alt="Our collaboration">
+
+                        <span>
+                            the beginning 🎶
+                        </span>
+
+                    </div>
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            2023
+                        </span>
+
+                        <h2>
+                            One girl from Nepal.
+                        </h2>
+
+                        <p>
+                            Vidhu came to India to begin her
+                            bachelor's journey at DIT University,
+                            Dehradun.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event right">
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            2024
+                        </span>
+
+                        <h2>
+                            One boy from pithoragarh.
+                        </h2>
+
+                        <p>
+                            Came to dehradun for bachelor's to graphic era university.
+                        </p>
+
+                        <div class="sticky-note">
+                            "No, actually he came for me......"
+                            🪈
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event left">
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            THE DISCOVERY
+                        </span>
+
+                        <h2>
+                            Wait... You Play Flute?
+                        </h2>
+
+                        <p>
+                            Turns out both of them played flute.
+                            And somehow, both had started
+                            learning in Class 6. (Maybe the guy lied, not 
+                            sure if he started in 6. If you see this then
+                            tell me in text if this is rerally true.)
+                        </p>
+
+                        <div class="tiny-doodle">
+                            🪈 + 🪈 = 👀
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event right">
+
+                    <div class="timeline-photo polaroid rotate-right">
+
+                        <img src="photo_collection/beginning.jpeg"
+                             alt="First meeting">
+
+                        <span>
+                            February 13
+                        </span>
+
+                    </div>
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            FEBRUARY 13
+                        </span>
+
+                        <h2>
+                            The First Meeting.
+                        </h2>
+
+                        <p>
+                            He said he would perform at DIT.
+                            And suddenly the random person
+                            from Instagram was standing
+                            right there.
+                        </p>
+
+                        <p>
+                            It was awkward.
+                            It was sweet.
+                            And then we both jammed.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event left">
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            AFTER THAT
+                        </span>
+
+                        <h2>
+                            The Collaboration.
+                        </h2>
+
+                        <p>
+                            We made a collab video together.
+                            It reached a lot of people and
+                            gave Vidhu even more motivation
+                            to keep posting flute content.
+                        </p>
+
+                        <div class="sticky-note pink-note">
+                            Plot development: 📈
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event right">
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            THEN...
+                        </span>
+
+                        <h2>
+                            We Became Friends.
+                        </h2>
+
+                        <p>
+                            Rooting for each other.
+                            Supporting each other's music.
+                            Talking.
+                            Then not talking for a while.
+                            But commenting on each other's
+                            posts.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event left">
+
+                    <div class="story-content special-event">
+
+                        <span class="date">
+                            JUNE 10
+                        </span>
+
+                        <h2>
+                            The Birthday Realization.
+                        </h2>
+
+                        <p>
+                            Somewhere around my birthday,
+                            I realized that maybe this
+                            wasn't just friendship anymore.
+                            I could feel somene's genuine 
+                            happiness and disappointment around
+                            me and eventually I fell for this idiot..
+                        </p>
+
+                        <div class="big-heart">
+                            ♡
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event right">
+
+                    <div class="story-content special-event">
+
+                        <span class="date">
+                            JUNE 19
+                        </span>
+
+                        <h2>
+                            The Plot Changed.
+                        </h2>
+
+                        <p>
+                            And then Viku proposed.
+                        </p>
+
+                        <div class="proposal-stamp">
+                            OFFICIALLY US ♡
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event left">
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            JUNE → JULY
+                        </span>
+
+                        <h2>
+                            Long Distance Mode.
+                        </h2>
+
+                        <p>
+                            Different places.
+                            Virtual conversations.
+                            Excitement.
+                            Nervousness.
+                            And wondering what it would
+                            feel like to finally meet again
+                            as boyfriend and girlfriend.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-event right">
+
+                    <div class="timeline-photo polaroid rotate-right">
+
+                        <img src="photo_collection/aug2.jpeg"
+                             alt="August 2">
+
+                        <span>
+                            August 2 ♡
+                        </span>
+
+                    </div>
+
+                    <div class="story-content">
+
+                        <span class="date">
+                            AUGUST 2
+                        </span>
+
+                        <h2>
+                            It Felt Natural.
+                        </h2>
+
+                        <p>
+                            Finally meeting again.
+                            Except this time, everything
+                            felt different in the best way.
+                        </p>
+
+                        <p>
+                            Less awkward.
+                            More comfortable.
+                            More us.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="story-ending">
+
+                <p>
+                    And that is how...
+                </p>
+
+                <h2>
+                    two strangers became us. ♡
+                </h2>
+
+                <p>
+                    And now I hope it's always us no matter
+                    what life throws at us....
+                </p>
+
+            </div>
+
+
+            <button class="primary-btn"
+                    onclick="showPage('laughs')">
+
+                There is one thing we still need to investigate → 😂
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         8. LAUGHING VIDEO
+    ====================================================== -->
+
+    <section id="laughs" class="page">
+
+        <div class="laugh-page">
+
+            <div class="back-button"
+                 onclick="showPage('world')">
+                ← Back to our world
+            </div>
+
+            <p class="tiny-label">
+                SCIENTIFIC INVESTIGATION #001
+            </p>
+
+            <h1>
+                Why Do We Laugh So Much? 😂
+            </h1>
+
+            <p class="page-subtitle">
+                Scientists are still confused.
+                We have collected evidence.
+            </p>
+
+
+            <div class="investigation-board">
+
+                <div class="evidence-label">
+                    EVIDENCE A
+                </div>
+
+                <div class="video-frame">
+
+                    <div class="video-tape"></div>
+
+                    <video
+                        id="laughVideo"
+                        controls
+                        poster="photo_collection/dons.jpeg">
+
+                        <source
+                            src="video_collection/laughing.mp4"
+                            type="video/mp4">
+
+                        Your browser does not support video.
+
+                    </video>
+
+                </div>
+
+                <div class="evidence-caption">
+
+                    <span>CASE FINDING:</span>
+
+                    <strong>
+                        Absolutely no explanation found.
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div id="videoFinished"
+                 class="video-result hidden">
+
+                <span>🔬 SCIENTIFIC CONCLUSION</span>
+
+                <h2>
+                    Diagnosis: We are ridiculous.
+                </h2>
+
+                <p>
+                    Further research is required.
+                    Preferably together.
+                </p>
+
+            </div>
+
+
+            <button class="primary-btn"
+                    onclick="showPage('memories')">
+
+                Proceed to photographic evidence → 📸
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         9. MEMORY WALL
+    ====================================================== -->
+
+    <section id="memories" class="page">
+
+        <div class="memories-page">
+
+            <div class="back-button"
+                 onclick="showPage('world')">
+                ← Back to our world
+            </div>
+
+            <p class="tiny-label">
+                PHOTO EVIDENCE
+            </p>
+
+            <h1>
+                Little Moments ♡
+            </h1>
+
+            <p class="page-subtitle">
+                Some moments deserve to stay here forever.
+            </p>
+
+
+            <div class="photo-wall">
+
+                <div class="memory-polaroid rotate-left">
+
+                    <img src="photo_collection/flute_playing.jpeg"
+                         alt="Memory 1">
+
+                    <p>
+                        our first photo together ♡
+                    </p>
+
+                </div>
+
+
+                <div class="memory-polaroid rotate-right">
+
+                    <img src="photo_collection/mem1.jpeg"
+                         alt="Memory 2">
+
+                    <p>
+                        ♡ matching outfits ♡
+                    </p>
+
+                </div>
+
+
+                <div class="memory-polaroid rotate-left">
+
+                    <img src="photo_collection/mem3.jpeg"
+                         alt="Memory 3">
+
+                    <p>
+                        my first bouquet ♡
+                    </p>
+
+                </div>
+
+
+                <div class="memory-polaroid rotate-right">
+
+                    <img src="photo_collection/mem2.jpeg"
+                         alt="Memory 4">
+
+                    <p>
+                        I LOVE YOU ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button class="primary-btn"
+                    onclick="showPage('reasons')">
+
+                Now for the reasons... 💗
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         10. REASONS / FLIP CARDS
+    ====================================================== -->
+
+    <section id="reasons" class="page">
+
+        <div class="reasons-page">
+
+            <div class="back-button"
+                 onclick="showPage('world')">
+                ← Back to our world
+            </div>
+
+            <p class="tiny-label">
+                CONFIDENTIAL FILE
+            </p>
+
+            <h1>
+                Things I Adore About You.
+            </h1>
+
+            <p class="page-subtitle">
+                Click the cards. I made them nosy on purpose.
+            </p>
+
+
+            <div class="flip-grid">
+
+                <div class="flip-card">
+
+                    <div class="flip-inner">
+
+                        <div class="flip-front">
+                            🎶
+                            <span>
+                                The Music
+                            </span>
+                        </div>
+
+                        <div class="flip-back">
+                            Somehow music became one of
+                            the first things that connected us.
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="flip-card">
+
+                    <div class="flip-inner">
+
+                        <div class="flip-front">
+                            😂
+                            <span>
+                                Your Humor
+                            </span>
+                        </div>
+
+                        <div class="flip-back">
+                            You somehow manage to make
+                            ordinary moments unnecessarily funny.
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="flip-card">
+
+                    <div class="flip-inner">
+
+                        <div class="flip-front">
+                            🤍
+                            <span>
+                                Your Support
+                            </span>
+                        </div>
+
+                        <div class="flip-back">
+                            You have always rooted for me
+                            and encouraged me to keep going.
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="flip-card">
+
+                    <div class="flip-inner">
+
+                        <div class="flip-front">
+                            🫶
+                            <span>
+                                You
+                            </span>
+                        </div>
+
+                        <div class="flip-back">
+                            No explanation.
+                            You're just you.
+                            And I like that very much.
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button class="primary-btn"
+                    onclick="showPage('games')">
+
+                Let's see if YOU remember everything → 🎮
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         11. BOYFRIEND ARCADE
+    ====================================================== -->
+
+    <section id="games" class="page">
+
+        <div class="games-page">
+
+            <div class="back-button"
+                 onclick="showPage('world')">
+                ← Back to our world
+            </div>
+
+            <p class="tiny-label">
+                BOYFRIEND ARCADE
+            </p>
+
+            <h1>
+                How Well Do You Know Us? 🎮
+            </h1>
+
+            <p class="page-subtitle">
+                No pressure.
+                But your boyfriend privileges are being evaluated.
+            </p>
+
+
+            <div class="arcade-card">
+
+                <div class="arcade-screen">
+
+                    <span class="arcade-small">
+                        LEVEL <span id="gameLevel">1</span>
+                    </span>
+
+                    <h2 id="gameQuestion">
+                        Loading...
+                    </h2>
+
+                    <div id="gameAnswers"
+                         class="game-answers">
+                    </div>
+
+                    <p id="gameMessage"></p>
+
+                </div>
+
+            </div>
+
+
+            <button id="gameContinue"
+                    class="primary-btn hidden"
+                    onclick="nextGameQuestion()">
+
+                Next level →
+
+            </button>
+
+
+            <button class="primary-btn"
+                    onclick="showPage('secret')">
+
+                I survived. What's next? 🔐
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         12. SECRET ROOM
+    ====================================================== -->
+
+    <section id="secret" class="page">
+
+        <div class="secret-page">
+
+            <div class="back-button"
+                 onclick="showPage('world')">
+                ← Back to our world
+            </div>
+
+            <div class="secret-lock">
+                🔐
+            </div>
+
+            <p class="tiny-label">
+                RESTRICTED AREA
+            </p>
+
+            <h1>
+                Only Viku Allowed.
+            </h1>
+
+            <p>
+                Enter the secret password.
+            </p>
+
+            <div class="password-box">
+
+                <input
+                    type="password"
+                    id="secretPassword"
+                    placeholder="hint: our first connector">
+
+                <button id="unlockSecret"
+                        class="primary-btn">
+                    Unlock
+                </button>
+
+            </div>
+
+            <p id="secretMessage"></p>
+
+            <div id="secretContent"
+                 class="secret-content hidden">
+
+                <div class="secret-note">
+                    <span>🎶</span>
+
+                    <h2>
+                        You found it.
+                    </h2>
+
+                    <p>
+                        I'm thankful to music for giving me such a kind, caring guy
+                        and I hope I can always be there for you in all your phases of 
+                        life. Time flies whenever we are together so let's be together for all the times ahead. 
+                        Thank you for always being there and yes please stay ♡ I love you my boyfi ♡ 
+                        Happy boyfriend's day to my man ♡♡♡♡♡♡
+                    </p>
+
+                    <strong>
+                        Maybe some coincidences are worth keeping.
+                    </strong>
+                </div>
+
+                <button class="primary-btn"
+                        onclick="showPage('gift')">
+
+                    I think there's one last thing... 🎁
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         13. FINAL GIFT
+    ====================================================== -->
+
+    <section id="gift" class="page gift-page">
+
+        <div class="gift-container">
+
+            <div class="gift-stars">
+                ✦ &nbsp; ♡ &nbsp; ✦
+            </div>
+
+            <p class="tiny-label">
+                FINAL CASE FILE
+            </p>
+
+            <h1>
+                One Last Thing...
+            </h1>
+
+            <p class="gift-intro">
+                You've made it all the way here.
+            </p>
+
+
+            <!-- GIFT BOX -->
+
+            <div id="giftBox"
+                 class="gift-box">
+
+                <div class="gift-lid">
+
+                    <div class="gift-ribbon"></div>
+
+                </div>
+
+                <div class="gift-body">
+
+                    <div class="gift-ribbon"></div>
+
+                </div>
+
+                <div class="gift-bow">
+                    🎀
+                </div>
+
+            </div>
+
+
+            <button id="openGift"
+                    class="primary-btn">
+
+                Open your gift 🎁
+
+            </button>
+
+
+            <!-- PROPOSAL -->
+
+            <div id="proposal"
+                 class="proposal hidden">
+
+                <div class="ring">
+
+                    <div class="ring-band"></div>
+
+                    <div class="ring-stone">
+                        💎
+                    </div>
+
+                </div>
+
+                <p class="tiny-label">
+                    IMPORTANT QUESTION
+                </p>
+
+                <h2>
+                    Will you be my boyfriend
+                    for the rest of my life?
+                </h2>
+
+                <p class="proposal-subtitle">
+                    Choose carefully. 👀
+                </p>
+
+
+                <div class="proposal-buttons">
+
+                    <button id="yesFinal"
+                            class="primary-btn yes-button">
+
+                        YES ♡
+
+                    </button>
+
+                    <button id="noFinal"
+                            class="secondary-btn no-button">
+
+                        NO 😐
+
+                    </button>
+
+                </div>
+
+                <p id="noMessage"
+                   class="no-message">
+                </p>
+
+            </div>
+
+
+            <!-- FINAL MESSAGE -->
+
+            <div id="finalMessage"
+                 class="final-message hidden">
+
+                <div class="heart-burst">
+                    ♡
+                </div>
+
+                <h1>
+                    I LOVE YOU.
+                </h1>
+
+                <p>
+                    Okay, that's it.
+                </p>
+
+                <p>
+                    You are officially stuck with me. 🫶
+                </p>
+
+                <div class="final-signature">
+                    — Vidhu ♡
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="extraa.js"></script>
+
+</body>
+</html>
